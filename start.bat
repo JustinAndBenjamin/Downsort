@@ -1,3 +1,3 @@
 @echo off
-cd /d "C:\Users\Friedrich\Documents\Portfolio\Python\Python\Projekte\DownloadSorter"
-python main.py
+cd /d "C:\Users\Friedrich\Documents\Portfolio\GitHub\Downsort"
+start "" pythonw main.pyw
