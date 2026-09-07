@@ -1,12 +1,21 @@
-Readme: this is a program for sorting ALL your downloads. 
-TIP: We do absolutely not want to know what you are downloading.
+# Downsort v1.1
 
+This is a program for sorting **ALL** your downloads. 
 
-**CREDITS**
+> **TIP:** We do absolutely not want to know what you are downloading. Keep that stuff to yourself.
 
-The logic and code was written by JustinCase-306, the GUI to my horror by DeepSeek v4 0731 Medium Effort (ai names are getting wild these days).
+---
 
-I really hope this program helps you a lot.
+### CREDITS
 
-Download the program: https://github.com/JustinAndBenjamin/Downsort/releases/tag/v1.1
-Check out our other repos: https://github.com/JustinAndBenjamin/
+* **Logic & Code:** Written by [@JustinCase-306](https://github.com/JustinCase-306)
+* **The GUI:** Built to my absolute horror by **DeepSeek v4 0731 Medium Effort** *(AI names are getting wild these days...)*
+
+---
+
+I really hope this program helps you a lot!
+
+### Links
+
+* **Download the program:** [Downsort v1.1 Releases](https://github.com/JustinAndBenjamin/Downsort/releases/tag/v1.1)
+* **Check out our other repos:** [The best organization that's ever lived](https://github.com/JustinAndBenjamin/)
