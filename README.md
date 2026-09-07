@@ -18,4 +18,4 @@ I really hope this program helps you a lot!
 ### Links
 
 * **Download the program:** [Downsort v1.1 Releases](https://github.com/JustinAndBenjamin/Downsort/releases/tag/v1.1)
-* **Check out our other repos:** [The best organization that's ever lived](https://github.com/JustinAndBenjamin/)
+* **Check out our other repos:** [Our organization](https://github.com/JustinAndBenjamin/)
