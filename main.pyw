@@ -7,7 +7,9 @@ import customtkinter as ctk
 import sorter
 
 APP_DIR = os.path.dirname(os.path.abspath(__file__))
-CFG = os.path.abspath(os.path.join(APP_DIR, "config.json"))
+CFG_DIR = os.path.join(os.environ.get("APPDATA", os.path.expanduser("~")), "Downsort")
+os.makedirs(CFG_DIR, exist_ok=True)
+CFG = os.path.join(CFG_DIR, "config.json")
 FOLDER_NAMES = {"image": "Bilder", "doc": "Dokumente",
                 "music": "Musik", "video": "Videos", "app": "Anwendungen"}
 
@@ -16,8 +18,8 @@ ctk.set_default_color_theme("blue")
 
 
 def default_config():
-    user = os.getenv("USERNAME", "Friedrich")
-    dl = os.path.join("C:/Users", user, "Downloads").replace("\\", "/")
+    home = os.path.expanduser("~")
+    dl = os.path.join(home, "Downloads").replace("\\", "/")
     return {"dl": dl, "min": 30, "iv": 1, "new": 1}
 
 
