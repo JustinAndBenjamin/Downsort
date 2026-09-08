@@ -1,3 +1,5 @@
 @echo off
-cd /d "C:\Users\Friedrich\Documents\Portfolio\GitHub\Downsort"
+setlocal
+set "PYTHONPATH="
+cd /d "%~dp0"
 start "" pythonw main.pyw
